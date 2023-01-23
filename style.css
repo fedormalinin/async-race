@@ -1,0 +1,72 @@
+body {
+    background-color: #262626;
+
+    color: whitesmoke;
+
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.car-image {
+  transform: translate(0, 85%);
+}
+
+button {
+    border-color: rgba(243, 255, 255, 0.6);
+
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px 20px;
+
+    cursor: pointer;
+
+    text-transform: uppercase;
+
+    margin: 5px 0;
+
+    color: whitesmoke;
+}
+
+input {
+    background-color: transparent;
+
+    border-radius: 20px;
+    border-color: rgba(209, 209, 209, 0.6);
+    padding: 10px 20px;
+}
+
+input::placeholder {
+    color:whitesmoke;
+}
+
+input[type="color"] {
+	-webkit-appearance: none;
+	width: 60px;
+	height: 40px;
+    padding: 0;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    top: 15px;
+    cursor: pointer;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+}
+
+.control-tracks {
+    border-radius: 15px;
+    border: solid 2px rgba(223, 223, 223, 0.3);
+    padding: 15px;
+    width: fit-content;
+}
+
+.car-name {
+  display: inline-block;
+  position: relative;
+  right: 100px;
+  bottom: 20px;
+}
